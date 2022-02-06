@@ -1,0 +1,21 @@
+.hover__content{
+    width: inherit;
+    height: 0px;
+    background: aqua;
+    opacity: 0.6;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p__con{
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+}
+.block:hover .hover__content{
+    height: inherit;
+}
+.block:hover .p__con{
+    opacity: 1;
+}
