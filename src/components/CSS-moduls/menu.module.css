@@ -1,0 +1,28 @@
+.menu{
+    width: 45vw;
+    position: absolute;
+    left: 50%;
+    margin-left: -21.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 30px;
+}
+li {
+    display: inline-block;
+    font-size: calc(6px + 9 * (100vw / 1280));
+    text-align: center;
+}
+.img{
+    width: calc(17vw * (100vw / 1280));
+    height: auto;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+a:hover{
+    color: aquamarine;
+}

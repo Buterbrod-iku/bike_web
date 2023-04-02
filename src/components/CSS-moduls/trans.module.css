@@ -1,0 +1,32 @@
+.main{
+    display: grid;
+    height: 90vh;
+    grid-template-areas:
+            "A A A B   B B B B   B B B B"
+            "C C C B   B B B B   B B B B"
+            "C C C B   B B B B   B B B B"
+            "C C C B   B B B B   B B B B";
+}
+.second_img{
+    background-image: url('./../../img/seat-black.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    grid-area: C;
+}
+.main_img{
+    background-image: url('./../../img/left-box-2.jpg');
+    background-size: cover;
+    background-position: right;
+    grid-area: B;
+}
+.main_logo{
+    width: 160px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -60px;
+    margin-top: -65px;
+    user-select: none;
+}

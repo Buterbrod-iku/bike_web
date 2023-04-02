@@ -1,0 +1,43 @@
+.block_text{
+    background: white;
+    grid-area: A;
+}
+.ico{
+    width: 50px;
+    position: relative;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: 70px;
+    user-select: none;
+}
+.d_text{
+    width: 300px;
+    position: relative;
+    right: 50%;
+    margin-right: -150px;
+    float: right;
+}
+.text{
+    font-size: 16px;
+    color: gray;
+    margin-top: 25px;
+}
+
+hr{
+    background: darkgray;
+    width: 50px;
+    position: relative;
+    left: 45%;
+    bottom: -200px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 30px solid white;
+    position: relative;
+    left: 50%;
+    margin-left: -22px;
+    top: 220px;
+}

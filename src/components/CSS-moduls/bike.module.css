@@ -1,0 +1,35 @@
+.main{
+    display: grid;
+    height: 90vh;
+    grid-template-areas:
+            "B B A   A A D   D D D"
+            "B B A   A A D   D D D"
+            "B B C   C C D   D D D"
+            "B B C   C C D   D D D";
+}
+.first__block{
+    grid-area: B;
+    background-image: url('../../img/red-frame.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini__block{
+    grid-area: C;
+    background-image: url('../../img/chrome-wheels.jpg');
+    background-size: cover;
+}
+.second__block{
+    grid-area: D;
+    background-image: url('../../img/red-bike.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+img{
+
+}
+.logo{
+    width: auto;
+    height: auto;
+}

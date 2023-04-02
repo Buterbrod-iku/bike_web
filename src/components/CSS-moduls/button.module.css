@@ -1,0 +1,8 @@
+.main {
+    width: 100vw;
+    height: 60vh;
+    display: grid;
+    grid-template-areas:
+            "A A B B   D D E E   F F F F"
+            "C C C C   D D E E   G G H H";
+}

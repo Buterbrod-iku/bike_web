@@ -1,0 +1,35 @@
+.main{
+    width: 100vw;
+    height: 50vh;
+    background: #e7e7e7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first{
+    color: #7e7e7e;
+}
+.p_first{
+    line-height: 25px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+}
+.twitter{
+    width: 35px;
+    height: auto;
+}
+.facebook{
+    width: 35px;
+    height: auto;
+    margin: 0px 15px;
+}
+.xz{
+    width: 35q;
+    height: auto;
+}
+.tree{
+    color: #7e7e7e;
+}

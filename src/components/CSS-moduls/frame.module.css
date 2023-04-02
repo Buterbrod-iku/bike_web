@@ -1,0 +1,55 @@
+.main{
+    display: grid;
+    height: 90vh;
+    grid-template-areas:
+            "B B B B   B B B B   B A A A"
+            "B B B B   B B B B   B C C C"
+            "B B B B   B B B B   B C C C"
+            "B B B B   B B B B   B C C C";
+}
+.main_img{
+    background-image: url('./../../img/left-box-1.jpg');
+    background-size: cover;
+    grid-area: B;
+}
+.main_logo{
+    width: 120px;
+    height: 130px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -60px;
+    margin-top: -65px;
+    user-select: none;
+}
+.block_text{
+    background: white;
+    grid-area: A;
+}
+.second_img{
+    background-image: url('./../../img/seat-red.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: C;
+}
+.ico{
+    width: 50px;
+    position: relative;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: 70px;
+    user-select: none;
+}
+.d_text{
+    width: 300px;
+    position: relative;
+    right: 50%;
+    margin-right: -150px;
+    float: right;
+}
+.text{
+    font-size: 16px;
+    color: gray;
+    margin-top: 25px;
+}
